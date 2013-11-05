@@ -22,6 +22,8 @@
 		05FCC3F91828D33500AB63AB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FCC3DD1828D33500AB63AB /* CoreData.framework */; };
 		05FCC4011828D33500AB63AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05FCC3FF1828D33500AB63AB /* InfoPlist.strings */; };
 		05FCC4031828D33500AB63AB /* logTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FCC4021828D33500AB63AB /* logTests.m */; };
+		05FCC40F1828D36800AB63AB /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FCC40D1828D36800AB63AB /* firstViewController.m */; };
+		05FCC4101828D36800AB63AB /* firstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05FCC40E1828D36800AB63AB /* firstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		05FCC3FE1828D33500AB63AB /* logTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "logTests-Info.plist"; sourceTree = "<group>"; };
 		05FCC4001828D33500AB63AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05FCC4021828D33500AB63AB /* logTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = logTests.m; sourceTree = "<group>"; };
+		05FCC40C1828D36800AB63AB /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		05FCC40D1828D36800AB63AB /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
+		05FCC40E1828D36800AB63AB /* firstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = firstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 			children = (
 				05FCC3E81828D33500AB63AB /* saiAppDelegate.h */,
 				05FCC3E91828D33500AB63AB /* saiAppDelegate.m */,
+				05FCC40C1828D36800AB63AB /* firstViewController.h */,
+				05FCC40D1828D36800AB63AB /* firstViewController.m */,
+				05FCC40E1828D36800AB63AB /* firstViewController.xib */,
 				05FCC3EE1828D33500AB63AB /* Images.xcassets */,
 				05FCC3EB1828D33500AB63AB /* log.xcdatamodeld */,
 				05FCC3E01828D33500AB63AB /* Supporting Files */,
@@ -231,6 +239,7 @@
 			files = (
 				05FCC3E41828D33500AB63AB /* InfoPlist.strings in Resources */,
 				05FCC3EF1828D33500AB63AB /* Images.xcassets in Resources */,
+				05FCC4101828D36800AB63AB /* firstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +261,7 @@
 				05FCC3EA1828D33500AB63AB /* saiAppDelegate.m in Sources */,
 				05FCC3E61828D33500AB63AB /* main.m in Sources */,
 				05FCC3ED1828D33500AB63AB /* log.xcdatamodeld in Sources */,
+				05FCC40F1828D36800AB63AB /* firstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
